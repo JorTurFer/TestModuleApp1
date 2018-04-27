@@ -20,7 +20,8 @@ namespace TestApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = ExampleClass.Method1();
+            string strExample = ExampleClass.Method2();
+            label1.Text = ExampleClass.Method1();            
         }
     }
 }
