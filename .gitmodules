@@ -1,0 +1,3 @@
+[submodule "TestModuleLibrary"]
+	path = TestModuleLibrary
+	url = https://github.com/JorTurFer/TestModuleLibrary.git
