@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TestModuleLibrary;
 
 namespace TestApp1
 {
@@ -15,6 +16,11 @@ namespace TestApp1
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label1.Text = ExampleClass.Method1();
         }
     }
 }
