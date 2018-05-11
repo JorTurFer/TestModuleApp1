@@ -1,3 +1,6 @@
 [submodule "TestModuleLibrary"]
 	path = TestModuleLibrary
 	url = https://github.com/JorTurFer/TestModuleLibrary.git
+[submodule "Library2"]
+	path = Library2
+	url = https://github.com/JorTurFer/HidedProcessLauncher
